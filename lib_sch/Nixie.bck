@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SK6812
+D SK6812 RGB LED with controller
+$ENDCMP
+#
+#End Doc Library
