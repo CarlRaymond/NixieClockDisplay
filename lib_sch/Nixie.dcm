@@ -4,4 +4,8 @@ $CMP SK6812
 D SK6812 RGB LED with controller
 $ENDCMP
 #
+$CMP SK6812MINI
+D SK6812 RGB LED with controller
+$ENDCMP
+#
 #End Doc Library

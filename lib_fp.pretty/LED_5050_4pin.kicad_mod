@@ -5,6 +5,7 @@
   (fp_text value LED_5050_4pin (at 0 -0.1) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
+  (fp_line (start -2.5 -2.2) (end -2.2 -2.5) (layer F.SilkS) (width 0.15))
   (fp_line (start -2.5 -2.5) (end 2.5 -2.5) (layer F.SilkS) (width 0.15))
   (fp_line (start -2.5 2.5) (end -2.5 -2.5) (layer F.SilkS) (width 0.15))
   (fp_line (start 2.5 2.5) (end -2.5 2.5) (layer F.SilkS) (width 0.15))
