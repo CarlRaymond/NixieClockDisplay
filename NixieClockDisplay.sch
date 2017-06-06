@@ -1860,4 +1860,6 @@ F 3 "" H 10700 6100 60  0001 C CNN
 	1    10700 6100
 	1    0    0    -1  
 $EndComp
+Text Label 9650 700  0    60   ~ 0
+HV
 $EndSCHEMATC
