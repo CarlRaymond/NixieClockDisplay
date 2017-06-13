@@ -1103,7 +1103,6 @@ F 3 "" H 10950 800 50  0001 C CNN
 	1    10950 800 
 	1    0    0    -1  
 $EndComp
-NoConn ~ 10750 800 
 $Comp
 L GND #PWR035
 U 1 1 593464D5
@@ -1266,12 +1265,12 @@ $EndComp
 $Comp
 L CONN_01X03 J2
 U 1 1 593D18A5
-P 1050 1950
-F 0 "J2" H 1050 2150 50  0000 C CNN
-F 1 "CONN_01X03" V 1150 1950 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x03_Pitch2.54mm" H 1050 1950 50  0001 C CNN
-F 3 "" H 1050 1950 50  0001 C CNN
-	1    1050 1950
+P 1050 2150
+F 0 "J2" H 1050 2350 50  0000 C CNN
+F 1 "CONN_01X03" V 1150 2150 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x03_Pitch2.54mm" H 1050 2150 50  0001 C CNN
+F 3 "" H 1050 2150 50  0001 C CNN
+	1    1050 2150
 	0    -1   1    0   
 $EndComp
 $Comp
@@ -1855,17 +1854,13 @@ Wire Wire Line
 Wire Wire Line
 	1050 1450 1150 1450
 Wire Wire Line
-	1150 1450 1150 1750
+	1150 1450 1150 1950
 Wire Wire Line
 	950  850  950  1550
 Wire Wire Line
-	950  1550 1200 1550
-Wire Wire Line
-	1050 1550 1050 1750
-Wire Wire Line
 	850  1650 950  1650
 Wire Wire Line
-	950  1650 950  1750
+	950  1650 950  1950
 Text Label 1250 4750 2    60   ~ 0
 SRCK
 Text Label 1250 4900 2    60   ~ 0
@@ -1876,9 +1871,8 @@ Text Label 1250 5200 2    60   ~ 0
 PIXEL_IN
 Wire Wire Line
 	1250 5200 1550 5200
-Text Label 1200 1550 0    60   ~ 0
+Text Label 1250 1900 0    60   ~ 0
 SHDN
-Connection ~ 1050 1550
 Wire Wire Line
 	2100 2100 1950 2100
 Wire Wire Line
@@ -1913,4 +1907,31 @@ Connection ~ 1850 4750
 Connection ~ 1550 5200
 Wire Wire Line
 	4700 5100 4750 5100
+Wire Wire Line
+	1050 1550 1050 1950
+Text Label 10650 800  2    60   ~ 0
+SHDN
+Wire Wire Line
+	10750 800  10650 800 
+$Comp
+L GND #PWR?
+U 1 1 593F5D04
+P 1350 1550
+F 0 "#PWR?" H 1350 1300 50  0001 C CNN
+F 1 "GND" H 1350 1400 50  0000 C CNN
+F 2 "" H 1350 1550 50  0001 C CNN
+F 3 "" H 1350 1550 50  0001 C CNN
+	1    1350 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  1550 1050 1550
+Wire Wire Line
+	1350 1550 1350 1500
+Wire Wire Line
+	1350 1500 1150 1500
+Connection ~ 1150 1500
+Wire Wire Line
+	1250 1900 1050 1900
+Connection ~ 1050 1900
 $EndSCHEMATC
