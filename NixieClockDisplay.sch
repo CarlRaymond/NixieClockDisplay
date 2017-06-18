@@ -1093,25 +1093,14 @@ F 3 "" H 900 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X03 J3
-U 1 1 59345D10
-P 10950 800
-F 0 "J3" H 10950 1000 50  0000 C CNN
-F 1 "CONN_01X03" V 11050 800 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 10950 800 50  0001 C CNN
-F 3 "" H 10950 800 50  0001 C CNN
-	1    10950 800 
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR035
 U 1 1 593464D5
-P 10700 950
-F 0 "#PWR035" H 10700 700 50  0001 C CNN
-F 1 "GND" H 10700 800 50  0000 C CNN
-F 2 "" H 10700 950 50  0001 C CNN
-F 3 "" H 10700 950 50  0001 C CNN
-	1    10700 950 
+P 10700 850
+F 0 "#PWR035" H 10700 600 50  0001 C CNN
+F 1 "GND" H 10700 700 50  0000 C CNN
+F 2 "" H 10700 850 50  0001 C CNN
+F 3 "" H 10700 850 50  0001 C CNN
+	1    10700 850 
 	1    0    0    -1  
 $EndComp
 Text Notes 10450 950  0    60   ~ 0
@@ -1316,7 +1305,6 @@ F 3 "" H 1350 1550 50  0001 C CNN
 	1    1350 1550
 	1    0    0    -1  
 $EndComp
-NoConn ~ 10650 800 
 $Comp
 L CONN_02X04 J4
 U 1 1 594589F6
@@ -1857,10 +1845,6 @@ Wire Wire Line
 	1150 850  1150 1350
 Connection ~ 9150 700 
 Wire Wire Line
-	10700 950  10700 900 
-Wire Wire Line
-	10700 900  10750 900 
-Wire Wire Line
 	1150 7300 1150 7450
 Connection ~ 4500 6000
 Connection ~ 4400 6150
@@ -1957,8 +1941,6 @@ Wire Wire Line
 Wire Wire Line
 	1050 1550 1050 1950
 Wire Wire Line
-	10750 800  10650 800 
-Wire Wire Line
 	950  1550 1050 1550
 Wire Wire Line
 	1350 1550 1350 1500
@@ -2039,4 +2021,19 @@ Wire Wire Line
 	900  4350 800  4350
 Wire Wire Line
 	800  4350 800  4400
+$Comp
+L CONN_01X02 J3
+U 1 1 5947052E
+P 10950 750
+F 0 "J3" H 10950 900 50  0000 C CNN
+F 1 "CONN_01X02" V 11050 750 50  0000 C CNN
+F 2 "NixieClockDisplay:Pin_Header_Straight_1x03_Pitch2.54mm_No_Center" H 10950 750 50  0001 C CNN
+F 3 "" H 10950 750 50  0001 C CNN
+	1    10950 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10700 850  10700 800 
+Wire Wire Line
+	10700 800  10750 800 
 $EndSCHEMATC
