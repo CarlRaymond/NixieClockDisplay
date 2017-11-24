@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.6)
+(kicad_pcb (version 4) (host pcbnew 4.0.7)
 
   (general
     (links 194)
     (no_connects 0)
-    (area 69.837157 38.525 230.833334 107.103333)
+    (area 69.837157 39.921492 229.956163 105.075001)
     (thickness 1.6)
     (drawings 31)
     (tracks 1253)
@@ -2121,9 +2121,9 @@
     (pad 8 thru_hole oval (at 0 -17.78 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 96 "Net-(J1-Pad8)"))
     (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x08_Pitch2.54mm.wrl
-      (at (xyz 0 -0.35 0))
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -2162,9 +2162,9 @@
     (pad 3 thru_hole oval (at 0 -5.08 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 1 GND))
     (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x03_Pitch2.54mm.wrl
-      (at (xyz 0 -0.1 0))
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -2230,9 +2230,9 @@
     (pad 8 thru_hole oval (at 2.54 -7.62 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 1 GND))
     (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_2x04_Pitch2.54mm.wrl
-      (at (xyz 0.05 -0.15 0))
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -2269,9 +2269,9 @@
     (pad 2 thru_hole oval (at 0 -2.54 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 1 GND))
     (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x02_Pitch2.54mm.wrl
-      (at (xyz 0 -0.05 0))
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -2308,9 +2308,9 @@
     (pad 2 thru_hole oval (at 0 -5.08 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 1 GND))
     (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x03_Pitch2.54mm.wrl
-      (at (xyz 0 -0.1 0))
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 0 0))
     )
   )
 
