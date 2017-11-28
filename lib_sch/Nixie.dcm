@@ -8,4 +8,8 @@ $CMP SK6812MINI
 D SK6812 RGB LED with controller
 $ENDCMP
 #
+$CMP TPIC6B595
+D High-voltage tolerant 8-bit shift register
+$ENDCMP
+#
 #End Doc Library
