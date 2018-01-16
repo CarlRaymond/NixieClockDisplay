@@ -1,5 +1,6 @@
 (module Socket_SK-136 (layer F.Cu) (tedit 5929EAE0)
   (descr http://www.tube-tester.com/sites/nixie/data/soc/SK-136-14pin-PCB-NOS/SK-136-14pin-PCB-NOS.htm)
+  (clearance 0.2)
   (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
