@@ -1,4 +1,4 @@
-(module Adafruit_Trinket_Pro (layer F.Cu) (tedit 5A41843E)
+(module Adafruit_Trinket_Pro (layer F.Cu) (tedit 5A6BD9DA)
   (fp_text reference U8 (at 0 21.35) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -119,4 +119,6 @@
   (pad 23 thru_hole circle (at 7.62 -11.43) (size 1.699997 1.699997) (drill 0.999998) (layers *.Cu *.Mask))
   (pad 24 thru_hole circle (at 7.62 -13.97) (size 1.699997 1.699997) (drill 0.999998) (layers *.Cu *.Mask))
   (pad 7 thru_hole circle (at -7.62 1.27) (size 1.699997 1.699997) (drill 0.999998) (layers *.Cu *.Mask))
+  (pad 7A thru_hole circle (at -5.08 1.27) (size 1.699997 1.699997) (drill 0.999998) (layers *.Cu *.Mask))
+  (pad 8A thru_hole circle (at -5.08 3.81) (size 1.699997 1.699997) (drill 0.999998) (layers *.Cu *.Mask))
 )
